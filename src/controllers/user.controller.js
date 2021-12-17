@@ -19,7 +19,7 @@ exports.register = (req, res) => { //fonction exportable
             res.send({
                 user : data, // data c'est un objet
                 auth : true,
-                isCreated : true
+                isCreated : true 
             })
         })
         .catch((err) => {
